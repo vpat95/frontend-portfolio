@@ -1,6 +1,8 @@
 import Container from "react-bootstrap/Container"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "./App.css"
+import Button from 'react-bootstrap/Button'
+import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import Typical from "react-typical"
@@ -11,6 +13,8 @@ import git from './assets/git.svg'
 import html from './assets/html.svg'
 import js from './assets/js.svg'
 import reactjs from './assets/reactjs.svg'
+import pcf from './assets/pcf.png'
+import comingsoon from './assets/comingsoon.jpg'
 
 function App() {
   return (
@@ -18,7 +22,9 @@ function App() {
       <Container className="mt-5 pt-5 d-flex">
         <div className="mt-4 pt-4 header d-flex gap-5 justify-content-around align-items-center">
           <div className="intro d-flex flex-column justify-content-center" >
-            <h1 className="mb-0 pe-5 me-5">Vivek Patel |</h1>
+            <div>
+              <h1 className="mb-0 pe-5 me-5">Vivek Patel |</h1>
+            </div>
             <h2>
               <Typical
                 steps={["Frontend Developer", 2000, "Lifelong Learner", 2000, "Automotive Tinkerer", 2000, "Dog Lover", 2000]}
@@ -51,7 +57,7 @@ function App() {
         </div>
       </Container>
       <Container className="skills full-bleed text-center mt-5 pt-4 pb-5">
-          <h2 style={{color:'white'}}className="pb-4">Skills</h2>
+          <h2 style={{color:'white'}}className="pb-5">Skills</h2>
         <Row className="ps-3 align-items-center">
           <Col> 
             <div className="d-flex justify-content-between px-5 pb-4">
@@ -80,7 +86,49 @@ function App() {
         </Row>
       </Container>
       <Container className="text-center pt-5">
-        <h2 style={{color:'black'}}>Projects</h2>
+        <h2 className="mb-5 pb-5" style={{color:'black'}}>Projects</h2>
+      </Container>
+      <Container>
+        <Row xs={1} md={2} className="g-5">
+
+          <Col>
+            <Card className="card">
+              <div className="flow">
+                <Card.Img className="" variant="top" src={pcf} style={{borderBottom:' solid gray'}}/>
+                <div className="middle ">
+                  <a className="pe-2" href="https://project-car-finder.netlify.app/" target="_blank">Site</a>
+                  <a className="ps-2" href="https://github.com/vpat95/project-car-finder-frontend" target="_blank">Code</a>
+                </div>
+              </div>
+              <Card.Body>
+                <Card.Title style={{fontStyle:'oblique'}}>Project Car Finder</Card.Title>
+                <hr></hr>
+                <Card.Text style={{color:'black'}}>
+                  Project Car Finder is a place where automotive enthusiasts can find cars that are in need of restoration. This site allows you to view vehicles available for purchase, contact the seller of the vehicle, save your favorties to a separate watchlist, and even upload your own listing.
+                  <hr></hr>
+                </Card.Text>
+                <Card.Text style={{color:'black'}}>
+                  
+                </Card.Text>
+                <div className="d-flex gap-5">
+                  <Button style={{color:'white', background:'black'}}>ReactJS</Button>
+                  <Button style={{color:'white', background:'black'}}>StyledComponents</Button>
+                </div>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card>
+              <Card.Img variant="top" src={comingsoon}/>
+              <Card.Body>
+                <Card.Title style={{fontStyle:'oblique'}}>Coin Tracker</Card.Title>
+                <Card.Text style={{color:'black'}}>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+
+        </Row>
       </Container>
     </>
   );

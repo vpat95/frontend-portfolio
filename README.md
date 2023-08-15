@@ -1,8 +1,8 @@
-# React + Vite
+# README
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This portfolio is meant to give an overview of my journey so far as a Frontend Developer. Listed are the skills/languages I am proficient in as well as projects I have worked on(with more to follow).
 
-Currently, two official plugins are available:
+# Codebase
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. ReactJS
+2. Bootstrap

@@ -16,17 +16,17 @@
 }
 
 h1 {
-    font-size: 4vw;
+    font-size: 3.6vw;
     color: rgb(65, 64, 64);
 }
 
 h2{
-    font-size: 3vw;
-    color: rgb(51, 145, 246);
+    font-size: 2.5vw;
+    color: rgb(94, 0, 234);
 }
 
 h3{
-    font-size: 1.5vw;   
+    color: #fff; 
 }
 
 .full-bleed{
@@ -39,7 +39,8 @@ h3{
 }
 
 h4{
-    color:white;
+
+    font-size: 1.5vw; 
 }
 
 .skillsIcons{
@@ -47,7 +48,7 @@ h4{
 }
 
 p{
-    color:white;
+    color: #fff;
 }
 
 
@@ -70,3 +71,6 @@ svg:hover{
     transform: scale(1.2, 1.2);
 }
 
+.logo:hover{
+    transform: scale(1.4, 1.4);
+}

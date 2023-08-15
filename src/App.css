@@ -1,42 +1,72 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*html { font-size: calc(1em + 1vw); } */
+
+
+.header>img{
+    border-radius: 30%;
+    max-width: 25%;
+    border: solid thin black;
+    box-shadow: 0px 0px 15px 5px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.intro{
+    height: 80%;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+    font-size: 4vw;
+    color: rgb(65, 64, 64);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+h2{
+    font-size: 3vw;
+    color: rgb(51, 145, 246);
 }
 
-.card {
-  padding: 2em;
+h3{
+    font-size: 1.5vw;   
 }
 
-.read-the-docs {
-  color: #888;
+.full-bleed{
+    box-shadow: 0 0 0 100vmax black;
+    clip-path: inset(0 -100vmax);
 }
+
+.skills{
+    background-color: black;   
+}
+
+h4{
+    color:white;
+}
+
+.skillsIcons{
+    flex-basis: 33.33%;
+}
+
+p{
+    color:white;
+}
+
+
+a:hover{
+    .github {  
+    fill: purple;} 
+}
+
+a:hover{
+    .linkedin {  
+    fill: #0A66C2;} 
+}
+
+a:hover{
+    .gmail {  
+    fill: #BB001B;} 
+}
+
+svg:hover{
+    transform: scale(1.2, 1.2);
+}
+

@@ -8,4 +8,4 @@ This portfolio is meant to give an overview of my journey so far as a Frontend D
 
 # Portfolio Link
 
-https://vivekpatel-frontend-portfolio.netlify.app/
+https://vivek-patel.netlify.app/

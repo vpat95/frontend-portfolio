@@ -14,7 +14,7 @@ import html from './assets/html.svg'
 import js from './assets/js.svg'
 import reactjs from './assets/reactjs.svg'
 import pcf from './assets/pcf.png'
-import comingsoon from './assets/comingsoon.jpg'
+import ct from './assets/ct.png'
 
 function App() {
   return (
@@ -90,6 +90,32 @@ function App() {
       </Container>
       <Container>
         <Row xs={1} md={2} className="g-5">
+        <Col>
+          <Card className="card">
+              <div className="flow">
+                <Card.Img className="" variant="top" src={ct} style={{borderBottom:' solid gray'}}/>
+                <div className="middle ">
+                  <a className="pe-2" href="https://cointracker-crypto.netlify.app" target="_blank">Site</a>
+                  <a className="ps-2" href="https://github.com/vpat95/coin-tracker" target="_blank">Code</a>
+                </div>
+              </div>
+              <Card.Body>
+                <Card.Title style={{fontStyle:'oblique'}}>Coin Tracker</Card.Title>
+                <hr></hr>
+                <Card.Text style={{color:'black'}}>
+                  Coin Tracker is a place where crypto investors and enthusiasts can receive an high level overview of the market data of some of the most popular coins out today. Users can create and sign into their own account where they will get access to a personal watchlist they can fill to track their favorite coins.
+                  <hr></hr>
+                </Card.Text>
+                <Card.Text style={{color:'black'}}>
+                  
+                </Card.Text>
+                <div className="d-flex gap-5">
+                  <Button style={{color:'white', background:'black'}}>ReactJS</Button>
+                  <Button style={{color:'white', background:'black'}}>Bootstrap</Button>
+                </div>
+              </Card.Body>
+            </Card>
+          </Col>
 
           <Col>
             <Card className="card">
@@ -104,7 +130,7 @@ function App() {
                 <Card.Title style={{fontStyle:'oblique'}}>Project Car Finder</Card.Title>
                 <hr></hr>
                 <Card.Text style={{color:'black'}}>
-                  Project Car Finder is a place where automotive enthusiasts can find cars that are in need of restoration. This site allows you to view vehicles available for purchase, contact the seller of the vehicle, save your favorties to a separate watchlist, and even upload your own listing.
+                  Project Car Finder is a place where automotive enthusiasts can find cars that are in need of restoration. This site allows you to view vehicles available for purchase, contact the seller of the vehicle, save your favorties to a separate watchlist, and even upload your own listing. 
                   <hr></hr>
                 </Card.Text>
                 <Card.Text style={{color:'black'}}>
@@ -117,17 +143,6 @@ function App() {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
-            <Card>
-              <Card.Img variant="top" src={comingsoon}/>
-              <Card.Body>
-                <Card.Title style={{fontStyle:'oblique'}}>Coin Tracker</Card.Title>
-                <Card.Text style={{color:'black'}}>
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-
         </Row>
       </Container>
     </>

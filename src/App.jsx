@@ -73,13 +73,13 @@ function App() {
           </Col>
           <Col>
             <Row className="">
-              <h3>Languages</h3>
+              <h3 className="skill">Languages</h3>
                 <p>JavaScript</p>
                 <p>HTML</p>
                 <p>CSS</p>
             </Row>
             <Row>
-              <h3>Frameworks</h3>
+              <h3 className="skill">Frameworks</h3>
                 <p>ReactJS</p>
             </Row>
           </Col>

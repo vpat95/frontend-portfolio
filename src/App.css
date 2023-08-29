@@ -113,15 +113,18 @@ img {
     box-shadow: 0px 0px 15px 2px;
 }
 
-@media screen {
+@media screen and (max-width: 600px) {
     svg{
         transform: scale(.5,.5);
     }
     p{
         transform: scale(.5,.5);
     }
-    h3{
+    .skill{
         transform: scale(.5,.5);
+    }
+    .contact{
+        gap: 0;
     }
 
 }

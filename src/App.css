@@ -76,7 +76,7 @@ svg:hover{
 }
 
 .logo:hover{
-    transform: scale(1.4, 1.4);
+    transform: scale(1.2, 1.2);
 }
 
 
@@ -111,4 +111,17 @@ img {
 .card{
     border: solid black;
     box-shadow: 0px 0px 15px 2px;
+}
+
+@media screen {
+    svg{
+        transform: scale(.5,.5);
+    }
+    p{
+        transform: scale(.5,.5);
+    }
+    h3{
+        transform: scale(.5,.5);
+    }
+
 }

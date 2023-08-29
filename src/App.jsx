@@ -110,8 +110,8 @@ function App() {
                   
                 </Card.Text>
                 <div className="d-flex gap-5">
-                  <Button style={{color:'white', background:'black'}}>ReactJS</Button>
-                  <Button style={{color:'white', background:'black'}}>Bootstrap</Button>
+                  <Button style={{color:'white', background:'black', cursor:'default'}}>ReactJS</Button>
+                  <Button style={{color:'white', background:'black', cursor:'default'}}>Bootstrap</Button>
                 </div>
               </Card.Body>
             </Card>
@@ -137,8 +137,8 @@ function App() {
                   
                 </Card.Text>
                 <div className="d-flex gap-5">
-                  <Button style={{color:'white', background:'black'}}>ReactJS</Button>
-                  <Button style={{color:'white', background:'black'}}>StyledComponents</Button>
+                  <Button style={{color:'white', background:'black', cursor:'default'}}>ReactJS</Button>
+                  <Button style={{color:'white', background:'black', cursor:'default'}}>StyledComponents</Button>
                 </div>
               </Card.Body>
             </Card>

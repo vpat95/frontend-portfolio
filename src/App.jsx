@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col'
 import Container from "react-bootstrap/Container"
 import Row from 'react-bootstrap/Row'
-import Typical from "react-typical"
+import { TypeAnimation } from "react-type-animation"
 import "./App.css"
 import css from './assets/css.svg'
 import ct from './assets/ct.png'
@@ -26,11 +26,9 @@ function App() {
               <h1 className="mb-0 pe-5 me-5">Vivek Patel |</h1>
             </div>
             <h2>
-              <Typical
-                steps={["Frontend Developer", 2000, "Lifelong Learner", 2000, "Automotive Tinkerer", 2000]}
-                loop={Infinity}
-                wrapper="span"
-              />
+
+              <TypeAnimation sequence={["Frontend Developer", 2000, "Lifelong Learner", 2000, "Automotive Tinkerer", 2000]}
+                repeat={Infinity} wrapper="span" />
             </h2>
           </div>
           <img className="ms-5" src={picture} />
